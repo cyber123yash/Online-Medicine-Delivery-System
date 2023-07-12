@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    width:100%;
+    height:40px;
+    background-color: rgb(30, 126, 210);
+    justify-content: space-between;
+    align-content: center;
+    font-family: Arial;
+    z-index: 10;
+}
+
+header p{
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 20px;;
+    padding: 0, 100px;
+    font-weight: bold;
+}
+
+.tag{
+    font-size: large;
+    font-family: Helvetica;
+    color:rgb(46, 13, 13);
+    text-transform: capitalize;
+}
+form .slider{
+    max-height: 120px;
+    display:flex;
+    overflow:auto;
+}
+
+form .slider .item{
+    font-family: sans-serif;
+    text-align: center;
+    min-width: 200px;
+    padding:20px;
+    margin-left: 20px;;
+    height:20px;
+    background-color: blueviolet;
+    color:white;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+form .slider .item:hover{
+    background-color: rgb(70, 34, 34);
+}
+
+.pannel{
+    width:80%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto ;
+    margin-right: auto ;
+    float:left;
+    background-color: blue;
+}
+.product{
+    width:200px;
+    height:100%;
+    border:2px solid grey;
+}
+
+.product img{
+    height:100%;
+    width:160px;
+}
+
+.product p{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(50, 44, 35);
+}
+
+.imgp{
+    height:100px;
+     width=100px;
+}
+
+input[type=submit]{
+    width:50px;
+    background-color: blue;
+}

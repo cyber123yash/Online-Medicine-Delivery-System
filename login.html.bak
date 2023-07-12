@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class = "center">
+		<h1>Login</h1>
+		<form method="post">
+			<div class="txt_field">
+				<input type="text" placeholder="Email">
+			</div>
+			<div class="txt_field">
+				<input type="password" placeholder="Password">
+				
+			</div>
+				<input type="submit" value="Login">
+				<div class="singup_link"><a href="file:///D:/medihelp2/singup%20form/singup.html">Sign in</a></div>
+		</form>
+	</div>
+</body>
+
+</html>
